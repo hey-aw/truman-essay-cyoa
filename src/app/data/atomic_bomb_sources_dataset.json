@@ -1,0 +1,142 @@
+[
+  {
+    "id": "truman_statement",
+    "title": "Statement by President Truman Announcing the Use of the Bomb on Hiroshima",
+    "author": "Harry S. Truman",
+    "date": "1945-08-06",
+    "type": "Primary Source",
+    "perspective": "Justified",
+    "who": "President Harry S. Truman",
+    "why": "Believed the bomb was necessary to end the war quickly and avoid further American casualties.",
+    "link": "https://www.trumanlibrary.gov/library/public-papers/93/",
+    "citation": {
+      "mla": "Truman, Harry S. \"Statement by the President Announcing the Use of the Bomb on Hiroshima.\" 6 Aug. 1945. Truman Library, https://www.trumanlibrary.gov/library/public-papers/93/."
+    }
+  },
+  {
+    "id": "szilard_petition",
+    "title": "Petition to the President of the United States",
+    "author": "Leo Szilard and 69 Manhattan Project Scientists",
+    "date": "1945-07-17",
+    "type": "Primary Source",
+    "perspective": "Unjustified",
+    "who": "Leo Szilard and other Manhattan Project scientists",
+    "why": "Urged reconsideration of the bomb use due to moral and global consequences.",
+    "link": "https://ahf.nuclearmuseum.org/ahf/key-documents/szilard-petition/",
+    "citation": {
+      "mla": "Szilard, Leo. \"Petition to the President of the United States.\" 17 July 1945, Atomic Heritage Foundation, https://ahf.nuclearmuseum.org/ahf/key-documents/szilard-petition/."
+    }
+  },
+  {
+    "id": "franck_report",
+    "title": "The Franck Report",
+    "author": "James Franck and Committee of Scientists",
+    "date": "1945-06-11",
+    "type": "Primary Source",
+    "perspective": "Complex",
+    "who": "James Franck and Manhattan Project scientists",
+    "why": "Recommended a demonstration of the bomb before using it on civilians.",
+    "link": "https://fissilematerials.org/library/fra45.pdf",
+    "citation": {
+      "mla": "Franck, James, et al. \"The Franck Report.\" 11 June 1945, https://fissilematerials.org/library/fra45.pdf."
+    }
+  },
+  {
+    "id": "eisenhower_reflection",
+    "title": "Eisenhower Reflects on the Bombing Decision",
+    "author": "Dwight D. Eisenhower",
+    "date": "1963",
+    "type": "Secondary Source",
+    "perspective": "Unjustified",
+    "who": "General Dwight D. Eisenhower",
+    "why": "Believed Japan was close to surrender and the bomb was unnecessary.",
+    "link": "https://www.raabcollection.com/presidential-autographs/eisenhower-nuclear",
+    "citation": {
+      "mla": "Eisenhower, Dwight D. \"Eisenhower Reflects on the Bombing Decision.\" The Raab Collection, https://www.raabcollection.com/presidential-autographs/eisenhower-nuclear."
+    }
+  },
+  {
+    "id": "alperovitz_analysis",
+    "title": "Why the U.S. Really Bombed Hiroshima",
+    "author": "Gar Alperovitz",
+    "date": "2015",
+    "type": "Secondary Source",
+    "perspective": "Complex",
+    "who": "Historian Gar Alperovitz",
+    "why": "Argued the bomb's use was politically motivated and alternatives were ignored.",
+    "link": "https://www.thenation.com/article/world/why-the-us-really-bombed-hiroshima/",
+    "citation": {
+      "mla": "Alperovitz, Gar. \"Why the U.S. Really Bombed Hiroshima.\" The Nation, July 2015, https://www.thenation.com/article/world/why-the-us-really-bombed-hiroshima/."
+    }
+  },
+  {
+    "id": "hiroshima_diary",
+    "title": "Hiroshima",
+    "author": "John Hersey",
+    "date": "1946",
+    "type": "Primary Source",
+    "perspective": "Unjustified",
+    "who": "Japanese civilians and survivors",
+    "why": "Recounts the devastating human impact on civilians in Hiroshima.",
+    "link": "https://www.newyorker.com/magazine/1946/08/31/hiroshima",
+    "citation": {
+      "mla": "Hersey, John. \"Hiroshima.\" The New Yorker, 31 Aug. 1946, https://www.newyorker.com/magazine/1946/08/31/hiroshima."
+    }
+  },
+  {
+    "id": "churchill_memoirs",
+    "title": "Triumph and Tragedy",
+    "author": "Winston S. Churchill",
+    "date": "1953",
+    "type": "Secondary Source",
+    "perspective": "Justified",
+    "who": "Prime Minister Winston Churchill",
+    "why": "Supported the use of overwhelming force to end the war and avoid Soviet occupation of Japan.",
+    "link": "https://archive.org/details/TheSecondWorldWarChurchill/mode/2up",
+    "citation": {
+      "mla": "Churchill, Winston S. *Triumph and Tragedy*. Houghton Mifflin, 1953."
+    }
+  },
+  {
+    "id": "stimson_memo",
+    "title": "Stimson’s Memo to Truman on Use of the Bomb",
+    "author": "Henry L. Stimson",
+    "date": "1945-09-11",
+    "type": "Primary Source",
+    "perspective": "Justified",
+    "who": "Secretary of War Henry Stimson",
+    "why": "Outlined the rationale for using the atomic bomb to bring the war to a swift end.",
+    "link": "https://www.trumanlibrary.gov/library/online-collections/decision-to-drop-atomic-bomb",
+    "citation": {
+      "mla": "Stimson, Henry L. \"Memorandum to President Truman.\" 11 Sept. 1945, Harry S. Truman Library, https://www.trumanlibrary.gov/library/online-collections/decision-to-drop-atomic-bomb."
+    }
+  },
+  {
+    "id": "operation_downfall",
+    "title": "Operation Downfall",
+    "author": "U.S. Joint Chiefs of Staff",
+    "date": "1945",
+    "type": "Secondary Source",
+    "perspective": "Justified",
+    "who": "U.S. Military Planners",
+    "why": "Estimated massive Allied and Japanese casualties in a land invasion.",
+    "link": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-057-1.html",
+    "citation": {
+      "mla": "U.S. Joint Chiefs of Staff. \"Operation Downfall: The Planned Invasion of Japan.\" U.S. Naval History and Heritage Command, https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-057-1.html."
+    }
+  },
+  {
+    "id": "interim_committee_minutes",
+    "title": "Minutes of the Interim Committee Meeting",
+    "author": "Interim Committee",
+    "date": "1945-05-31",
+    "type": "Primary Source",
+    "perspective": "Complex",
+    "who": "Advisory group to President Truman",
+    "why": "Discussed the use of the bomb and rejected the idea of a demonstration strike.",
+    "link": "https://www.atomicarchive.com/resources/documents/manhattan-project/interim-committee.html",
+    "citation": {
+      "mla": "Interim Committee. \"Meeting Minutes.\" 31 May 1945, Atomic Archive, https://www.atomicarchive.com/resources/documents/manhattan-project/interim-committee.html."
+    }
+  }
+]
