@@ -1,1 +1,2 @@
 - lint and test before committing with pnpm lint and pnpm test
+- commit changes and make pull request
