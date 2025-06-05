@@ -1,103 +1,94 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white">
+      <div className="container mx-auto px-6 py-12">
+        <header className="text-center mb-12">
+          <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            The Truman Essay
+          </h1>
+          <p className="text-xl text-slate-300">A Choose Your Own Adventure</p>
+        </header>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <main className="max-w-4xl mx-auto">
+          <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-8 mb-8 border border-slate-700">
+            <div className="prose prose-invert max-w-none">
+              <p className="text-lg leading-relaxed mb-6">
+                It&apos;s 3 AM and you&apos;re staring at a blank document on your laptop screen. The cursor blinks mockingly
+                as you realize you have less than 6 hours until your History essay on President Harry S. Truman is due.
+                You&apos;ve been procrastinating for weeks, and now panic is setting in.
+              </p>
+
+              <p className="text-lg leading-relaxed mb-6">
+                Your coffee has gone cold, energy drinks litter your desk, and your roommate is sound asleep.
+                The assignment is worth 40% of your final grade, and you need to write 2,500 words analyzing
+                Truman&apos;s most significant presidential decision.
+              </p>
+
+              <p className="text-lg leading-relaxed mb-8">
+                As you sit in the eerie glow of your laptop, you contemplate your options. What do you do?
+              </p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <Link href="/write-immediately" className="block">
+              <div className="bg-gradient-to-br from-green-600/20 to-green-700/20 border border-green-500/30 rounded-lg p-6 hover:border-green-400/50 transition-colors cursor-pointer group h-full">
+                <h3 className="text-xl font-semibold mb-3 text-green-400 group-hover:text-green-300">
+                  📚 Start Writing Immediately
+                </h3>
+                <p className="text-slate-300 group-hover:text-slate-200">
+                  Dive straight into research and writing. You&apos;ll focus on the atomic bomb decision -
+                  it&apos;s the most obvious choice and you can find plenty of sources quickly.
+                </p>
+              </div>
+            </Link>
+
+            <Link href="/research-first" className="block">
+              <div className="bg-gradient-to-br from-blue-600/20 to-blue-700/20 border border-blue-500/30 rounded-lg p-6 hover:border-blue-400/50 transition-colors cursor-pointer group h-full">
+                <h3 className="text-xl font-semibold mb-3 text-blue-400 group-hover:text-blue-300">
+                  🔍 Research First
+                </h3>
+                <p className="text-slate-300 group-hover:text-slate-200">
+                  Spend time exploring different aspects of Truman&apos;s presidency. Maybe there&apos;s a less
+                  obvious but more interesting decision to analyze.
+                </p>
+              </div>
+            </Link>
+
+            <Link href="/get-coffee" className="block">
+              <div className="bg-gradient-to-br from-purple-600/20 to-purple-700/20 border border-purple-500/30 rounded-lg p-6 hover:border-purple-400/50 transition-colors cursor-pointer group h-full">
+                <h3 className="text-xl font-semibold mb-3 text-purple-400 group-hover:text-purple-300">
+                  ☕ Get More Coffee
+                </h3>
+                <p className="text-slate-300 group-hover:text-slate-200">
+                  You need fuel for this all-nighter. Head to the 24-hour café down the street
+                  and clear your head before tackling this massive task.
+                </p>
+              </div>
+            </Link>
+
+            <Link href="/email-professor" className="block">
+              <div className="bg-gradient-to-br from-red-600/20 to-red-700/20 border border-red-500/30 rounded-lg p-6 hover:border-red-400/50 transition-colors cursor-pointer group h-full">
+                <h3 className="text-xl font-semibold mb-3 text-red-400 group-hover:text-red-300">
+                  📧 Email Professor
+                </h3>
+                <p className="text-slate-300 group-hover:text-slate-200">
+                  Panic and send a desperate email asking for an extension. It&apos;s risky,
+                  but maybe you can buy yourself more time.
+                </p>
+              </div>
+            </Link>
+          </div>
+
+          <div className="text-center mt-12">
+            <p className="text-slate-400 italic">
+              &quot;The buck stops here.&quot; - Harry S. Truman
+            </p>
+          </div>
+        </main>
+      </div>
     </div>
   );
 }
